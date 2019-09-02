@@ -1,0 +1,21 @@
+<header class="col-sm-12 bg-dark">
+    <div class="row bg-dark">
+        <label class="col-sm-2 text-light  display-5 letfmargin">Gerenciar Usuários</label>
+
+        <nav class="col-sm-8  navbar navbar-dark bg-dark justify-content-center">
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/user']">Criar Usuário</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/list']">Listar Usuário</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link exit" [routerLink]="" (click)="logout()">Sair</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
